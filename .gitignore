@@ -1,0 +1,10 @@
+# Dependencias (por si en el futuro usas npm)
+node_modules/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs y archivos temporales
+*.log
+*.tmp
