@@ -12,9 +12,14 @@ function agregarMovimiento() {
     }
 
     if (tipo === "ingreso") {
-        saldo += monto;
+    saldo += monto;
     } else {
-        saldo -= monto;
+    if (monto > saldo) {
+        alert("No tienes suficiente dinero para este gasto.");
+        return;
+    }
+
+    saldo -= monto;
     }
 
     document.getElementById("saldo").textContent =
