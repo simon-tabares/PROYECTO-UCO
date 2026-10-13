@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f3;
+    margin: 0;
+    padding: 30px;
+}
+
+.contenedor {
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+h1 {
+    color: #18794e;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #666;
+}
+
+.tarjeta {
+    background-color: #18794e;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, select, button {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+button {
+    background-color: #18794e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #105c3a;
+}
+
+li {
+    background-color: #f0f4f3;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+}

@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTROLADOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <p>Controla tus ingresos y gastos</p>
+
+        <div class="tarjeta">
+            <h3>Dinero disponible</h3>
+            <h2 id="saldo">$0</h2>
+        </div>
+
+        <div class="formulario">
+            <input type="text" id="descripcion" placeholder="Descripción">
+            <input type="number" id="monto" placeholder="Valor">
+
+            <select id="tipo">
+                <option value="ingreso">Ingreso</option>
+                <option value="gasto">Gasto</option>
+            </select>
+
+            <button onclick="agregarMovimiento()">Agregar movimiento</button>
+        </div>
+
+        <h3>Mis movimientos</h3>
+        <ul id="lista"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
